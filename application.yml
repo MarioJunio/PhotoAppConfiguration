@@ -1,0 +1,9 @@
+app:
+  security:
+    ip: 192.168.100.27
+  login:
+    url: /users/auth
+  jwt:
+    identifier: token
+    expiration: 3600000
+    secret: m@rio
