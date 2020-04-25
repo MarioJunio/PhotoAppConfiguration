@@ -2,7 +2,7 @@ app:
   security:
     ip: 192.168.100.27
   login:
-    url: /users/auth
+    url: /users/authentication
   jwt:
     identifier: token
     expiration: 3600000
