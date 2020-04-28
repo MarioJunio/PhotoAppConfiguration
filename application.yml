@@ -6,4 +6,4 @@ app:
   jwt:
     identifier: token
     expiration: 3600000
-    secret: teste_chave
+    secret: alterada
