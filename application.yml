@@ -6,4 +6,4 @@ app:
   jwt:
     identifier: token
     expiration: 3600000
-    secret: mudou_de_novo
+    secret: alterei1
