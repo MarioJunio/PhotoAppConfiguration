@@ -6,11 +6,9 @@ eureka-discovery-service:
 eureka:
   client:
     service-url:
-      defaultZone: http://${eureka-discovery-service.credentials.user}:${eureka-discovery-service.credentials.password}@localhost:8090/eureka
+      defaultZone: http://${eureka-discovery-service.credentials.user}:${eureka-discovery-service.credentials.password}@172.31.40.53:8090/eureka
 
 app:
-  security:
-    ip: 192.168.100.27
   login:
     url: /users/authentication
   jwt:
