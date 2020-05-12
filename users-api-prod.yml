@@ -3,8 +3,8 @@ spring:
   datasource:
     #url: jdbc:h2:mem:testdb
     #driver-class-name: org.h2.Driver
-    url: jdbc:mysql://localhost:3306/curso_microservices
-    username: root
+    url: jdbc:mysql://172.31.46.131:3306/curso_microservices
+    username: mario
     password: '{cipher}AQABQUs3FtWdh0J+LdH/Ac1hZn8xTUZuA8U7c/cWgOqmJL9e1q73FCWln8kqzvnR49AfvcZHbgnwCb4HWTeiQQolnhbCe0v+uY8BxFT0OlnXSzZnzxS87Mfva9/EVhKjseGZ6aEQhF9pvdDwGeKIo88io9r6W+YRiDs0WeVQqw8hlDKWaYo/H4L6hfvXcaThMui1QADxw9WsiD7n8mtb5KwvK5i/5FN/8uFJ4AuaKAqR65sLNbTrG1yydCfc0/I6E3OLXLckfMUQmVYDN2WQ0kmA2gM8H+lGAFbsMs+XAQD0N4MUmjlrtngZjZjnyUt+w9MSN4XkVNVk/epVvWYGXQdhJg46eLfaLSj9l8nOD9w8jMsD4BMxugPAz4l2JoMzAnc='
     
   jpa:
