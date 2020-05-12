@@ -4,9 +4,3 @@ spring:
       name: mario
       password: "{cipher}AQAcB5NeMCU1GEaTBEROGJQ0AYf46vZ0I8WNOaha4vWhG5TBwqCCjw95lgxPu55GOG4hUyxxgd5Jm7PcjUA1lOmm/VY/r2DF+mJ7cIplMdWd41rFEka0lHf73NZRK+qZQrpF89BTHLp8YWxL7J83kfXQzMQ37vNAh4PlDHYkxSTH0kh63wvToe6lWzWildDypQRjDC9cFGoZk1MGFVsC4MzlUa089HwXsWIXYd3FI/mZtmcAd/987ErK4uapg6GCDihSGqdA4wPP2GOrN2WFpj09aYahhzuhGj3GY7JCttNPmrLVndh35JpsSlMTyZqlgkEFFJlzmgSPFAGJ2jZ5TA1BGU5Gg3H2sMD0JP/ZQ83BHVmrpoq1BvC9EohIwbwH2K0="
 
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
-    service-url:
-      defaultZone: http://localhost:8090/eureka
